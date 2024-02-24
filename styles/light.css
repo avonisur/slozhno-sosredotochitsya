@@ -25,7 +25,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   
-  .header__theme-menu-button:hover {
+  .theme_light .header__theme-menu-button:hover {
     border: 1px solid rgba(50, 49, 45, 0.40);
   }
 
@@ -46,15 +46,13 @@
   --bg-color-light: #db00ff;
   --main-text-color: #353430;
   --nav-color: #353430;
-  --section-heading-color: #353430;
   --cover-text-shadow: #FF0070;
   --subtitle-color: #353430;
   --header-title-color: #ffc2e6;
   --footer-title-color: #ffc2e6;
   --link-shadow-color: #FF8DCB;
   --section-title-color:  #353430;
-  background-image: url(../images/cover-image-light.png);
-  background-color: var(--bg-color-light);   
+ 
   }
 
   .page {
@@ -66,7 +64,7 @@
   }
 
   .header__theme-menu-button_active {
-    border: 1px solid var(--section-heading-color);
+    border: 1px solid var(--section-title-color);
   }
 
   .decoration-element {
