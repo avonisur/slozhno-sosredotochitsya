@@ -6,8 +6,8 @@
 
 .page.theme_dark {
   --accent-color: #FF0070;
-  --header-logo-color: #DB00FF;
-  --footer-logo-color: #DB00FF;
+  --header-title-color: #DB00FF;
+  --footer-title-color: #DB00FF;
   --main-font-family: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
   --main-line-height: 23.4px;

@@ -16,6 +16,7 @@
   --header-title-color: #ffc2e6;
   --footer-title-color: #ffc2e6;
   --link-shadow-color: #FF8DCB;
+  --section-title-color:  #353430;
   background-image: url(../images/cover-image-light.png);
   background-color: var(--bg-color-light);   
 }
@@ -51,8 +52,25 @@
   --header-title-color: #ffc2e6;
   --footer-title-color: #ffc2e6;
   --link-shadow-color: #FF8DCB;
+  --section-title-color:  #353430;
   background-image: url(../images/cover-image-light.png);
   background-color: var(--bg-color-light);   
+  }
+
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.40);
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--section-heading-color);
+  }
+
+  .decoration-element {
+    display: none;
   }
 }
 /* Остальные стили */
