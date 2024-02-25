@@ -304,7 +304,7 @@
 
 /* Медиа-запросы для ПЛАНШЕТОВ */
 
-@media (width <= 1024px) {
+@media (width <= 1023px) {
 
   .header {
     min-height: 1024px;
@@ -383,6 +383,10 @@
     margin-block-start: 40px;
   }
 
+  .footer__title{
+    font-size: 116px;
+  }
+
   .decoration-element {
     right: 39px;
     top: 11px;
@@ -421,8 +425,15 @@
   }
 
   .header__theme-menu {
+    display: flex;
     padding-inline-end: 10px;
-    padding-block-start: 75px;
+    align-content: center;
+    justify-content: end;
+    margin-block-end: 10px;
+  }
+
+  .header__theme-menu-list {
+    gap: 10px;
   }
 
   .main {
@@ -471,7 +482,7 @@
   }
 
   .decorated-zone::after {
-    inset-block-end: 635px;
+    inset-block-end: 10px;
     inset-inline: 10px;
   }
 
